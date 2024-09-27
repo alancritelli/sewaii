@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
 
   /* Adicionando uma cor sobre a imagem com transparência */
   background: linear-gradient(
@@ -28,7 +28,6 @@ body {
   text-align: center;
   color: #000;
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
 .frase {
@@ -39,7 +38,7 @@ body {
   border-radius: 20px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   transition: opacity 1s ease-in-out;
-  animation: pulse 2s infinite;
+  animation: pulse 3s infinite;
 }
 
 @keyframes pulse {
