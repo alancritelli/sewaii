@@ -5,57 +5,39 @@
 }
 
 body {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-
-  /* Adicionando uma cor sobre a imagem com transparência */
-  background: linear-gradient(
-      rgba(136, 150, 139, 0.6),
-      /* Cor rosa suave com transparência */ rgba(250, 208, 196, 0.6)
-        /* Cor pêssego suave com transparência */
-    ),
-    url('assets/margaridas.webp'); /* URL da imagem de margaridas */
-
-  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
-  background-position: center;
-  background-repeat: no-repeat; /* A imagem não será repetida */
+  height: 100vh;
+  background-image: url('assets/marg2.avif'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* A imagem cobre toda a tela */
 }
 
 .container {
   text-align: center;
-  color: #000;
-  font-size: 2.5rem;
-}
-
-.frase {
-  max-width: 80%;
-  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  transition: opacity 1s ease-in-out;
-  animation: pulse 3s infinite;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.05);
-    opacity: 0.8;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
+h1 {
+  font-size: 24px;
+  color: #b35a7d; /* Cor suave e romântica */
+  margin-bottom: 20px;
 }
 
-.fade-out {
-  opacity: 0;
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #b35a7d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a04e6d;
 }

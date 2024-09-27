@@ -1,25 +1,20 @@
 const frases = [
-  '🌼Assim como o sol e a lua, somos diferentes, mas feitos para estar juntos...🌼',
-
-  '🌼Se a vida fosse um jogo, te amar seria o meu gol nos acréscimos, como nos jogos mais tensos do Curica.',
-
-  '🌼Você não se acha merecedora do amor, mas saiba que você é uma pessoa linda de se amar...🌼'
+  'Você é a razão do meu sorriso.',
+  'Cada momento com você é único.',
+  'Te amo mais a cada dia que passa.',
+  'O amor verdadeiro é aquele que o vento não leva e a distância não separa.',
+  'Quando estou com você, o tempo para e o mundo se ilumina.',
+  'Seu amor é a melodia que embala meu coração.'
 ]
 
-let fraseIndex = 0
-const fraseElement = document.getElementById('frase')
-const btnMudarFrase = document.getElementById('btn-mudar-frase') // Adicionar o botão ao JS
+let indice = 0
 
-function mostrarFrase() {
-  fraseElement.classList.add('fade-out')
-  setTimeout(() => {
-    fraseElement.textContent = frases[fraseIndex]
-    fraseElement.classList.remove('fade-out')
-    fraseIndex = (fraseIndex + 1) % frases.length
-  }, 1000)
+function mostrarProximaFrase() {
+  const elementoFrase = document.getElementById('frase')
+  if (indice < frases.length) {
+    elementoFrase.innerText = frases[indice]
+    indice++
+  } else {
+    elementoFrase.innerText = 'Você viu todas as frases!'
+  }
 }
-
-setInterval(mostrarFrase, 5000)
-
-// Exibir a primeira frase imediatamente
-mostrarFrase()
