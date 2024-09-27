@@ -7,6 +7,10 @@ const frases = [
 
   'Eu gostaria que você pudesse se ver do jeito que eu vejo você...',
 
+  'Tudo o que faço e falo pra você é pelo simples fato de você merecer.',
+
+  'Eu te amo muito, mas o que eu falei de ta me apaixonando por você de novo, é verdade.',
+
   'Eu amo amar você, nunca se esqueça disso...',
 
 ]
