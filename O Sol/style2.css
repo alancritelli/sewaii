@@ -20,23 +20,21 @@ html {
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-image: url('../assets/marg2.avif');
   background-size: cover;
-
   font-family: var(--font-style);
 }
 
 .container {
   text-align: center;
   background-color: white;
-
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
   max-width: 90%;
 }
 
@@ -45,10 +43,27 @@ h1 {
   font-weight: 100;
 }
 
+/* Estilo do botão de frase */
 button {
   font-size: 4rem;
   border: none;
   cursor: pointer;
-
   background: none;
+}
+
+/* Estilo específico para o botão de voltar */
+.button-voltar {
+  display: flex;
+  font-size: 2rem; /* Tamanho do botão de voltar */
+  margin-top: 2rem; /* Espaço acima do botão de voltar */
+  padding: 1rem 2rem; /* Espaçamento interno do botão */
+  border-radius: 5px; /* Cantos arredondados */
+  background-color: #000; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+/* Efeito de hover para o botão de voltar */
+.button-voltar:hover {
+  background-color: var(--secundary-color); /* Muda a cor ao passar o mouse */
 }
