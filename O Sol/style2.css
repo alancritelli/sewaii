@@ -23,20 +23,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* Use min-height em vez de height */
   background-image: url('../assets/marg2.avif');
   background-size: cover;
   font-family: var(--font-style);
+  padding: 2rem; /* Espaçamento ao redor do conteúdo */
 }
 
 .container {
   text-align: center;
   background-color: white;
-  margin-top: 40rem;
-  padding: 2rem;
+  padding: 2rem; /* Espaçamento interno do contêiner */
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 90%;
+  width: fit-content; /* Ajusta a largura do contêiner ao conteúdo */
+  overflow: auto; /* Adiciona rolagem se o conteúdo exceder a altura */
 }
 
 h1 {
