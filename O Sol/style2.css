@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #e3ffcd;
+  --secundary-color: #b8dea4;
+  --font-style: 'DM Mono', monospace;
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../assets/marg2.avif');
+  background-size: cover;
+
+  font-family: var(--font-style);
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  max-width: 90%;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+button {
+  font-size: 4rem;
+  border: none;
+  cursor: pointer;
+
+  background: none;
+}
