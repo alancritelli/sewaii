@@ -1,7 +1,7 @@
 const frases = [
-  'Se a vida fosse um jogo, te amar seria o meu gol nos acréscimos, como nos jogos mais tensos do Curica.',
+  // 'Se a vida fosse um jogo, te amar seria o meu gol nos acréscimos, como nos jogos mais tensos do Curica.',
 
-  'Eu amo amar você, nunca se esqueça disso...',
+  // 'Eu amo amar você, nunca se esqueça disso...',
 
   '📅 25/09/2024 - Dia 00: Hoje foi um dia diferente de todos os outros, onde você me liga depois de uma briga com seu pai (confesso que achei estranho), eu queria muito te ver depois disso e ofereci carona para ir trabalhar, que por algum motivo sabia que era exatamente o que precisava. E ver você vestida de mostarda, nosso misto quente em um dos meus lugares favoritos só me fizeram ver o quão importante são esses momentos com você e nesse dia, posso dizer que me apaixonei(de novo). A noite, quando fomos no parque das aguas, foi uma noite diferente de tudo, ali tivemos conversas aleatorias, conversas sérias, brincamos, falamos mal dos outros, etc... uma noite perfeita (quero que todos nossos dias sejam assim). ',
 
