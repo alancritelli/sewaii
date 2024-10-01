@@ -3,30 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>O Eclipse</title>
+    <title>Galeria de Fotos</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="iframe-container">
-      <iframe
-        style="border-radius: 12px"
-        src="https://open.spotify.com/embed/playlist/3wYr6uDsdx6Me0ySRUQWAH?utm_source=generator&theme=0"
-        width="90%"
-        height="500"
-        frameborder="5"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-      ></iframe>
 
-      <!-- Botão de voltar -->
-      <button
-        class="button-voltar"
-        onclick="window.location.href='../index.html'"
-      >
-        Voltar
-      </button>
+  <body>
+    <header>
+      <h1>O famoso Eclipse...</h1>
+    </header>
+
+    <section class="gallery">
+      <!-- Cada "div" representa uma imagem -->
+      <div class="gallery-item">
+        <img src="../Assets/us3.jpg" alt="Imagem 1" />
+      </div>
+      <div class="gallery-item">
+        <img src="../Assets/memories.jpg" alt="Imagem 2" />
+      </div>
+      <div class="gallery-item">
+        <img src="../Assets/us2.jpg" alt="Imagem 3" />
+      </div>
+      <div class="gallery-item">
+        <img src="../Assets/us4.jpg" alt="Imagem 4" />
+      </div>
+      <!-- Adicione mais imagens conforme necessário -->
+    </section>
+
+    <!-- Botão de voltar -->
+    <button
+      class="button-voltar"
+      onclick="window.location.href='../index.html'"
+    >
+      Voltar
+    </button>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

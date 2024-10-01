@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #e3ffcd;
+  --secundary-color: #b8dea4;
+  --font-style: 'DM Mono', monospace;
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-style);
+  font-size: 1.6rem;
+  background-color: var(--primary-color);
+}
+
+/* Estilo do container para o iframe e botão */
+.iframe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Estilo do container para o iframe e botão */
+.iframe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Estilo específico para o botão de voltar */
+.button-voltar {
+  font-size: 2rem; /* Tamanho do botão de voltar */
+  margin-top: 1.5rem; /* Espaço acima do botão de voltar */
+  padding: 1rem 2rem; /* Espaçamento interno do botão */
+  border-radius: 5px; /* Cantos arredondados */
+  background-color: #000; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  transition: background-color 0.3s; /* Efeito de transição */
+  cursor: pointer;
+}
+
+/* Efeito de hover para o botão de voltar */
+.button-voltar:hover {
+  background-color: var(--secundary-color); /* Muda a cor ao passar o mouse */
+}
