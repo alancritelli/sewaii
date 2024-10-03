@@ -34,7 +34,10 @@ function mostrarProximaFrase() {
   mostrarFrase()
 }
 
+function mostrarFraseAnterior() {
+  indice = (indice - 1 + frases.length) % frases.length // Decrementa o índice e reinicia se for menor que 0
+  mostrarFrase()
+}
+
 // Exibe a frase inicial ao carregar a página
 document.addEventListener('DOMContentLoaded', mostrarFrase)
-
-// Chama a função de mostrar a próxima frase ao clicar no botão
