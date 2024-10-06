@@ -22,11 +22,16 @@ html,
 body {
   width: 100%;
   height: 100%;
+
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+
+  justify-content: space-between;
   align-items: center;
+
   font-family: var(--font-style);
   font-size: 1.6rem;
+
   background-color: var(--primary-color);
 }
 
@@ -35,6 +40,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  flex: 1; /* O conteúdo principal ocupará o espaço restante */
+  justify-content: center;
 }
 
 .menu-container button {
@@ -55,4 +63,17 @@ body {
 
 .menu-container button:hover {
   background-color: var(--secundary-color);
+}
+
+footer {
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  position: relative; /* Ajusta a posição do footer */
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
 }
