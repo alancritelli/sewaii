@@ -7,12 +7,17 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <!--FONTES-->
+    <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
 
   <body>
+    <!-- Timer que vai contando a partir do dia 23/09 -->
+    <div id="timer">
+      <p>Tempo desde o recomeço: <span id="time-elapsed"></span></p>
+    </div>
+
     <div class="menu-container">
       <button onclick="window.location.href='O Sol/index.html'">
         ☀️ O Sol ☀️
@@ -27,15 +32,17 @@
       </button>
     </div>
 
+    <!-- FOOTER -->
     <footer>
       <p>
-        &copy; Feito com muito amor e carinho por
+        &copy; Talvez meu maior gesto de amor, por
         <strong>
-          <a href="https://wa.link/e3h5uj" target="_blank">
-            Alan Critelli 🤍</a
-          ></strong
-        >
+          <a href="https://wa.link/e3h5uj" target="_blank"> Alan Critelli 🤍</a>
+        </strong>
       </p>
     </footer>
+
+    <!-- Script do Timer -->
+    <script src="script.js"></script>
   </body>
 </html>
