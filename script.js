@@ -1,6 +1,6 @@
 function calcularTempoDecorrido() {
   // Define a data inicial como 23 de setembro de 2024
-  const dataInicial = new Date('2024-09-23T00:00:00')
+  const dataInicial = new Date('2024-09-25')
   const agora = new Date() // Obtém a data e hora atuais
 
   // Calcula a diferença em milissegundos
