@@ -45,7 +45,13 @@ const frases = [
 
   '📅 13/10/2024 - Dia 18: Cara, hoje não tenho como te explicar o quão gostoso foi o dia, sério mesmo, não tenho palavras para descrever e tenho uma cena marcada na minha cabeça, que é você andando na paulista toda contente, animada com tudo que via, sério, isso pra mim foi a melhor coisa que poderia ter acontecido... Sei que em alguns momentos não fui uma companhia tão boa, mas eu só tava com medo de estragar o dia, que quase fiz isso... Espero que sempre lembre desse dia e que possamos ter mais dias assim, foi incrivel com TODAS AS LETRAS, OBRIGADO POR SER TÃO BOA PRA MIM (MESMO EU NÃO MERECENDO)',
 
-  '📅 14/10/2024 - Dia 19:'
+  '📅 14/10/2024 - Dia 19: Hoje fiquei meio pa, por que queria ir te buscar para ir trabalhar e te ver um pouco (acho que era necessario depois de ontem), mas fiquei muito feliz de você querer me ver a noite para conversarmos (você ta me devendo um abraço), pena que a reunião atrapalhou nossa conversa, mas conseguimos conversar e se ver um pouquinho, foi bom...',
+
+  '📅 15/10/2024 - Dia 20: Por mais que eu tava meio pa, gostei de ter ido te levar trabalhar (faltou só levar seu mistão) e sério, fiquei muito pensativo com a merda que te falei do "relacionamento CLT", sei que não é assim e nunca foi, não quero te cobrar de falar comigo (você não tem obrigação nenhuma de me responder). Confesso que não quero parar de ficar com você, quero continuar até você ir embora, mas vou respeitar sua decisão (só não quero que você fique sem falar comigo), sei que você tava bem ocupada, mas ainda sim senti muita sua falta durante o dia.',
+
+  '📅 16/10/2024 - Dia 21: Hoje percebi que você não tava muito afim de conversar comigo e confesso que queria muito te mandar mensagem, mas por algum motivo sei que você só não ta no clima para conversar comigo (e ta tudo bem, ou não). Gostei de ter feito o monstrão quente para você, é minha nova especialidade para te mimar um pouco ou fazer seu café da manhã KKKKKKKKKKKKK espero que você esteja lendo ainda isso aqui e que fale comigo (to com medo de te incomodar, se mandar mensagem)... Obrigado por tanto, não desiste de mim, ta?',
+
+  '🌒 EXTRA - SEMANA 03 🌒:'
 ]
 
 let indice = 0
