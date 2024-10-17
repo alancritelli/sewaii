@@ -51,7 +51,7 @@ const frases = [
 
   '📅 16/10/2024 - Dia 21: Hoje percebi que você não tava muito afim de conversar comigo e confesso que queria muito te mandar mensagem, mas por algum motivo sei que você só não ta no clima para conversar comigo (e ta tudo bem, ou não). Gostei de ter feito o monstrão quente para você, é minha nova especialidade para te mimar um pouco ou fazer seu café da manhã KKKKKKKKKKKKK espero que você esteja lendo ainda isso aqui e que fale comigo (to com medo de te incomodar, se mandar mensagem)... Obrigado por tanto, não desiste de mim, ta?',
 
-  '🌒 EXTRA - SEMANA 03 🌒:'
+  '🌓 EXTRA - SEMANA 03 🌓: Essa semana teve tanta coisa que chega a ser estranho, acho que precisamos parar de viver tão intensamente assim, nesse tempo que a gente passou junto, acontece tanta coisa que é historia de anos. Saiba que não tenho esperança da gente voltar, mas ainda não vou desistir de você, quero muito que seja você (de verdade). To ansioso para ir com você sabado mexer no seu cabelo e quero te ver bonitona sempre. Sei que nos ultimos dias não estamos falando muito, mas saiba que sempre fico esperando uma mensagemzinha sua, então caso queira falar comigo, você sabe onde me achar...'
 ]
 
 let indice = 0
