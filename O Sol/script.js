@@ -59,7 +59,7 @@ const frases = [
 
   '📅 19/10/2024 - Dia 24: O que me falou hoje de "estavamos tentando ter algo de novo" me pegou muito, de verdade... Igual eu te falei essa semana, não é por que eu não tenho mais esperança da gente voltar, que eu desisti de conquistar você. Grande parte do que eu sempre falei de recomeçar, eu mesmo não to cumprindo, que é a parte da gente ser amigo e eu ir ganhando seu coraçãozinho pouco a pouco. Ou seja, pulamos algumas etapas ai de novo... Saiba garota que quando você se achar merecedora do amor e quiser o meu amor de volta, eu sempre vou te amar da forma mais intensa que eu conseguir, com a unica diferença que esse amor vai ser por mim também, não só por você.',
 
-  '📅 20/10/2024 - Dia 25:'
+  '📅 20/10/2024 - Dia 25: Hoje fiquei o dia todo pensando em você, principalmente no domingo passado (tava tão gostoso, que queria ficar naquele dia), quero mais dias como aquele e espero muito que um dia possamos voltar em SP e conhecer mais lugares. Você não tem noção o quanto eu quero te mandar mensagem te enchendo o saco sobre alguma coisa, de te ver, te fazer o mistão, cara, to com saudades de você... Uma verdade nua e crua? Queria muito que você me desse só mais uma chance pra gente poder voltar a ficar. Desfazer todo aquele laço amoroso do nosso antigo relacionamento e tentar mais uma vez a ter algo, porra, não é possivel que esses dias bons que a gente sempre teve, seja tão pior do que as dificuldades que nós temos, pensa com carinho Yasmin, vamos resolver todos nossos problemas para que possamos tentar de novo mais pra frente? (de preferencia na europa)'
 ]
 
 let indice = 0
