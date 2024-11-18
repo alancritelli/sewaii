@@ -115,7 +115,15 @@ const frases = [
 
   '📅 13/11/2024 - Dia 48: Foi um dia bem merda pra mim, queria ter te visto (talvez nem faça tanta diferença pra você assim) pelo menos um pouco, mas não tinha condições de fazer algo de manha e você passou o dia todo sem falar comigo, então já "entendi" o recado, fora que tava numa bad fodida. Não tenho muito o que escrever sobre hoje, então é isso, um beijo da Anitta. ',
 
-  '🌕 EXTRA - SEMANA 07 🌕:'
+  '🌕 EXTRA - SEMANA 07 🌕:',
+
+  '📅 14/11/2024 - Dia 49: Confundi os dias da sua consulta, queria ter ido com você para te ver, mas sei lá, ao mesmo tempo que você tava conversando comigo, senti você mais distante que o normal, será esse o famoso "preludio do fim"?. Na hora que vi sua chamada perdida, abri um sorrisinho, pensando que você tinha me ligado para querer falar comigo sobre qualquer coisa, queria companhia, sabe? Mas ai eu vi a mensagem que era pelo filme, assinei o teste gratis para vocês assistirem, tem bastante filme legal nessa plataforma...',
+
+  '📅 15/11/2024 - Dia 50: Eu queria assistir esse filme com você, sozinho não assito nem fudendo (e não é nem meme), sei lá, quando me falou dele no cinema, pensei que seria algo "nosso" (nem sei se isso existe mais), até queria assistir para ter assunto com você, mas não vou mais te incomodar com minhas mensagens...',
+
+  '📅 16/11/2024 - Dia 51: Nem lembrava que você ia vir em casa para ver o lance da documentação, de verdade mesmo, como ta bem distante de mim essa semana, já imaginei que nem ia querer mais me ver ou até mesmo tinha achado alguem para te ajudar com essas coisas. Queria sim te ver, passar tempo com você, eu sinto muito sua falta, mas é isso lek, tmj...',
+
+  '📅 17/11/2024 - Dia 52: Teve um almoço em casa hoje, foi triste o pessoal perguntando o por que você não vinha também, que queriam te ver, falar com você e que você era boazinha. Enfim, acho que não sou unico que gosta de você... Eu vou te esperar (sei que não gosta dessa frase), mas eu vou viver minha vida, não quero só sua amizade, deixei claro e repito isso, quando eu for algo a mais que seu amigo, você me procura, que vai ter seu mistão quente, bolo e a armadilha de beijinhos... Bom, acho que isso nunca mais vai acontecer, já que foi facil não me amar mais, acho que vai ser facil não ter mais minha companhia... Só quero que você saiba que sinto sua falta e sempre quero te mandar mensagem para saber de você, conversar e zoar com você, mas sinto que só to forçando algo com você e que você não quer o mesmo, então é isso, sempre que quiser falar comigo, você tem carta branca para me procurar... Obrigado por tanto minha princesinha.'
 ]
 
 let indice = 0
